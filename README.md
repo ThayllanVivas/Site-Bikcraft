@@ -1,3 +1,3 @@
-Site: Bikcraft - Bicicletas feitas a mão
+Site: Bikcraft - Bicicletas Feitas a Mão
 
 Site de bicicletas do estilo clássico, retrô e de esporte.
