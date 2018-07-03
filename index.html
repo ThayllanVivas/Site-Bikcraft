@@ -2,7 +2,17 @@
 <html lang="pt-br">
 	<head>
 		<meta charset="utf-8">
-		<title> Bikcraft </title>
+		<title>Bikcraft - Bicicletas Personalizadas</title>
+		<meta name="description" content="Compre a sua bicicleta personalizada na Bikcraft. Possuímos modelos Passeio, Retrô e Esporte.">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="Bikcraft - Bicicletas Personalizadas">
+		<meta property="og:description" content="Compre a sua bicicleta personalizada na Bikcraft. Possuímos modelos Passeio, Metrô e Esporte.">
+		<meta property="og:url" content="http://www.bikcraft.com">
+		<meta property="og:image" content="http://www.bikcraft.com/img/og-image.png">
+
+		<link rel="shortcut icon" href="img/bikcraft.png">
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/grid.css">
@@ -10,6 +20,9 @@
 		<link rel="stylesheet" href="css/responsivo.css">
 	</head>
 	<body>
+		<script type="text/javascript">
+			document.documentElement.className += " js";
+		</script>
 		<!-- CABEÇALHO -->
 		<header class="header">
 			<div class="container">
@@ -41,7 +54,7 @@
 			</div>
 		</section>
 
-		<section class="produtos container">
+		<section class="produtos container animar">
 			<h2 class="subtitulo">Produtos</h2>
 			<ul class="produtos_lista">
 				<li class="grid-1-3">
@@ -79,10 +92,20 @@
 		<section class="portifolio">
 			<div class="container">
 				<h2 class="subtitulo">Portifólio</h2>
-				<ul class="portifolio_lista">
-					<li class="grid-8"><img src="img/portifolio/portifolio1.jpg" alt="Bicicleta Retro"></li>
-					<li class="grid-8"><img src="img/portifolio/portifolio2.jpg" alt="Bicicleta Passeio"></li>
-					<li class="grid-16"><img src="img/portifolio/portifolio3.jpg" alt="Bicicleta Esporte"></li>
+				<ul class="portifolio_lista rslides">
+
+					<li>
+						<div class="grid-8"><img src="img/portifolio/portifolio1.jpg" alt="Bicicleta Retro"></div>
+						<div class="grid-8"><img src="img/portifolio/portifolio2.jpg" alt="Bicicleta Passeio"></div>
+						<div class="grid-16"><img src="img/portifolio/portifolio3.jpg" alt="Bicicleta Esporte"></div>
+					</li>
+
+					<li>
+						<div class="grid-16"><img src="img/portifolio/portifolio3.jpg" alt="Bicicleta Esporte"></div>
+						<div class="grid-8"><img src="img/portifolio/portifolio1.jpg" alt="Bicicleta Retro"></div>
+						<div class="grid-8"><img src="img/portifolio/portifolio2.jpg" alt="Bicicleta Passeio"></div>
+					</li>
+
 				</ul>
 				<div class="call">
 					<p>conheça mais o nosso portifólio</p>
@@ -157,5 +180,12 @@
 				</div>
 			</div>
 		</footer>
+
+		<!-- JavaScript -->
+		<script type="text/javascript" src="js/libs/jquery-3.3.1.min.js">
+		</script>
+		<script type="text/javascript" src="js/plugin.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<!-- JavaScript -->
 	</body>
 </html>
